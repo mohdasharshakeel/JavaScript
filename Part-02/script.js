@@ -21,3 +21,8 @@ img.setAttribute(
 );
 
 img.style.width = "100px"
+
+let p = document.createElement("p")
+p.innerText = "This is a new paragraph"
+// document.querySelector("body").append(p)
+document.querySelector("body").prepend(p)
