@@ -38,3 +38,8 @@
 
 // let p = document.querySelector("p")
 // p.innerHTML = "<b> updaed </b> paragraph by JS"
+
+let div = document.querySelector("div")
+
+
+div.setAttribute("title", "this is a div element")
