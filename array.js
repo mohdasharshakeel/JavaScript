@@ -13,5 +13,19 @@
 // arr.sort((a, b) => b - a); // Descending order
 // console.log(arr); // Output: [8, 5, 3, 2, 1]
 
+//! Map
 
+let arr = [1, 2, 3, 4, 5];
+let newarr = arr.map((value, index, array) => {
+    return value < 1;
+}
+);
+console.log(newarr); // [ 2, 4, 6, 8, 10 ]
+console.log(arr); // [ 1, 2, 3, 4, 5 ]
+
+//! filter 
+let filterArray = arr.filter((value, index, array) => {
+    return value > 2;
+});
+console.log(filterArray); // [ 3, 4, 5 ]
 
