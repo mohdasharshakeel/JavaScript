@@ -39,7 +39,13 @@
 // let p = document.querySelector("p")
 // p.innerHTML = "<b> updaed </b> paragraph by JS"
 
-let div = document.querySelector("div")
+// let div = document.querySelector("div")
 
 
-div.setAttribute("title", "this is a div element")
+// div.setAttribute("title", "this is a div element")
+
+let apul = document.querySelector("ul")
+let ne = document.createElement("li")
+ne.innerHTML = "I am new li added by JS"
+
+apul.appendChild(ne)
