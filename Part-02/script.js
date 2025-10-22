@@ -12,4 +12,12 @@ h1.innerHTML = "Hello World form JS"
 // atti.innerText = "Go to Google"
 
 let atti = document.querySelector("a")
-atti.getAttribute("href" , "https://www.google.com")
+atti.getAttribute("href", "https://www.google.com")
+
+let img = document.querySelector("img")
+img.setAttribute(
+  "src",
+  "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+);
+
+img.style.width = "100px"
