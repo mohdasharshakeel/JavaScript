@@ -29,3 +29,10 @@ let filterArray = arr.filter((value, index, array) => {
 });
 console.log(filterArray); // [ 3, 4, 5 ]
 
+//! reduce
+let reduceArray = arr.reduce((accumalator, value ) => {
+    return accumalator + value;
+});
+console.log(reduceArray); // 15
+
+//! find \ hemesha pehla element return krta hai jo condition ko satisfy krta hai
