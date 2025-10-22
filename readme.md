@@ -7,4 +7,4 @@ JavaScript  revision started
  - IFFE ka use krke private variables bana sakte hai 
 
  ### ARRAYS ###
- 
+  - to hold multiple values
