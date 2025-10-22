@@ -8,3 +8,5 @@ JavaScript  revision started
 
  ### ARRAYS ###
   - to hold multiple values
+  - agar mere ps 5 size ka array hai or mai 10 me index ko access krunga to undefind ayega 
+  - 
