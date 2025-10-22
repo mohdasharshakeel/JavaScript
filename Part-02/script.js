@@ -28,10 +28,13 @@
 // document.querySelector("body").prepend(p)
 
 
-let lis = document.querySelectorAll("li")
+// let lis = document.querySelectorAll("li")
 
-lis.forEach((val) => {
-  val.style.color = "red"
-  val.style.fontSize = "20px"
-  val.style.fontFamily = "gilroy"
-})
+// lis.forEach((val) => {
+//   val.style.color = "red"
+//   val.style.fontSize = "20px"
+//   val.style.fontFamily = "gilroy"
+// })
+
+// let p = document.querySelector("p")
+// p.innerHTML = "<b> updaed </b> paragraph by JS"
