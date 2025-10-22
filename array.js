@@ -36,3 +36,9 @@ let reduceArray = arr.reduce((accumalator, value ) => {
 console.log(reduceArray); // 15
 
 //! find \ hemesha pehla element return krta hai jo condition ko satisfy krta hai
+
+//! splice \\ isse add bhi kr skte hai or remove b kr skte hai
+
+let brr = [1, 2, 3, 4, 5];
+brr.splice(1, 0, 100, 200)
+console.log(brr); // [ 1, 100, 200, 2, 3, 4, 5 ]
