@@ -10,7 +10,22 @@
 //     h2.style.fontFamily = "cursive";
 // })
 
-let inn = document.querySelector("input");
-inn.addEventListener('input', function (dets) {
-    console.log(dets.data)
+// let inn = document.querySelector("input");
+// inn.addEventListener('input', function (dets) {
+
+//     if (dets.data !== null) {
+//     console.log(dets.data);
+// }
+    
+// })
+
+
+
+let set = document.querySelector("select");
+let dec = document.querySelector("#device");
+ 
+ nhbgyset.addEventListener("change", function (dets) {
+    dec.textContent = `You have selected ${dets.target.value} device`;
 })
+ 
+
