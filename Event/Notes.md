@@ -16,3 +16,4 @@ change event jab chalta hai jb apka koi input select ho jaye ya phir textarea me
 
           - phase 1 event top level event se niche taraf ata hai 
           - phase 2 event raised event se parent taraf jata hai 
+          
