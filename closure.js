@@ -12,4 +12,3 @@ let counter = count();
 counter();
 counter();
 counter();
-counter();
