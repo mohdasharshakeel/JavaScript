@@ -44,3 +44,5 @@
 // ! what is CDN
 // ! what is babel 
 // ! what is convention and normal routing in react router
+
+//* this one is completed
