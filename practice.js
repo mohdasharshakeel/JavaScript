@@ -12,3 +12,12 @@ obj.sayName(); // What will be the output? Explain why  // Output will be Refere
 // To access the `name` property of the object `obj`, we should use `this.name` inside the method, like this:
 
 
+let a = 10 
+console.log(a); // What will be the output? Explain why  // Output will be 10
+
+console.log(b)
+let b = 20 // What will be the output? Explain why  // Output will be ReferenceError: Cannot access 'b' before initialization 
+
+function abc() {
+    console.log("Inside function abc")
+}

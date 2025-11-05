@@ -42,3 +42,5 @@ console.log(reduceArray); // 15
 let brr = [1, 2, 3, 4, 5];
 brr.splice(1, 0, 100, 200)
 console.log(brr); // [ 1, 100, 200, 2, 3, 4, 5 ]
+
+
