@@ -7,6 +7,19 @@
 // const newMap = num.map((item) => item * 2);
 // console.log(newMap) //[ 2, 4, 6, 8, 10 ]
 
+//! polyfill of Map
+
+// Array.prototype.myMap = function (cb) {
+//     let temp = [];
+//     for (let i = 0; i < this.length; i++){
+//         temp.push(cb(this[i], i, this))
+        
+//     }
+//     return temp;
+// }
+
+
+
 //! What is filter
 //? filter method takes each element in an array and it applies the condition against it, if the condition return true the element push into the output array if the conditon is false then element is not push in the output array  inshort i can say filter return only those elements which full fill the providede criteria
 
@@ -15,6 +28,16 @@
 // const num = [1, 2, 3, 4, 5, 6, 7];
 // let FilterArray = num.filter((item) => item > 2);
 // console.log(FilterArray)
+//! polyfil of Filter
+
+Array.prototype.Myfilter = function (cb) {
+    let temp = [];
+    for (let i = 0; i < this.length; i++) {
+        if (cb(this[i], i, this)) temp.push(this[i]);
+        
+    }
+    return temp;
+}
 
 //! What is Reduce
 
