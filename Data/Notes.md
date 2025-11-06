@@ -11,3 +11,5 @@
 
  2. 0(1) humko farak nahi padta input bhade ya ghate humko  pata haai humko kya search rkna hai aur kaha se milega wo bs
 
+ 
+
