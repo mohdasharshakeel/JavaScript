@@ -9,7 +9,6 @@
  1. 0(n)  as the number of items in the input data incresses the time it takes for the algorithm to run incresses correspondingly 
   - agar manlo 2 for loop hai aur time complexsity aise ban rhi hai 0(2n) to hum isko 0(n)  hi likhege constant ko drop kar dete hai 
 
- 2. 0(1) humko farak nahi padta input bhade ya ghate humko  pata haai humko kya search rkna hai aur kaha se milega wo bs
-
+ 2. 0(1) humko farak nahi padta input bhade ya ghate humko  pata haai humko kya search rkna hai aur kaha se milega wo bs maine rkhnta hai aur like loop me humne likha i<5 to ye hard coded hai mtlb constant hai yahi hota hai 0(1)
  
 
