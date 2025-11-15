@@ -12,4 +12,5 @@ JavaScript  revision started
   - 
 
 Interview list started from tomorrow 
-yes start y laptop is not working RN
+yes start y laptop is not working RN 
+today my laptop is repair
