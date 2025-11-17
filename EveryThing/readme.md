@@ -22,4 +22,4 @@ laptop is still not working commiting form phone
 hu
 
 
-aj se start
+practice start from tomorrow
