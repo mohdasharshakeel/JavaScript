@@ -22,4 +22,4 @@ laptop is still not working commiting form phone
 hu
 
 
-practice start from tomorrow 19 / 11 / 2025
+practice start from tomorrow 19 / 11 / 2025 aj se start
