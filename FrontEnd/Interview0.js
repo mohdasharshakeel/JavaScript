@@ -44,3 +44,31 @@
 // arr.sort((a, b) => a - b);
 // console.log(arr)
 
+//! Higher order function : higher order function are those function who return another function
+//! lexical scope
+//? function currying
+
+// function carry(a) {
+//     return function (b) {
+//         return function (c) {
+//             return a + b + c;
+//         }
+//     }
+// }
+// console.log(carry(2)(2)(2));
+
+//? Infinite currying
+
+function infiniteCurrying(a) {
+    return function (b) {
+    //* Agar 'b' exist karta hai (yaani agla number mila)
+        if (b) {
+        //*Toh hum sum karke wapas same function return karenge (Recursion)
+            return infiniteCurrying(a + b);
+        }
+        //* Agar 'b' nahi mila (empty call), toh final sum return karenge
+        return a;
+    }
+}//* Ab yeh chalega
+console.log(infiniteCurrying(2)(2)(2)(2)()); 
+// Output: 8
