@@ -59,16 +59,16 @@
 
 //? Infinite currying
 
-function infiniteCurrying(a) {
-    return function (b) {
-    //* Agar 'b' exist karta hai (yaani agla number mila)
-        if (b) {
-        //*Toh hum sum karke wapas same function return karenge (Recursion)
-            return infiniteCurrying(a + b);
-        }
-        //* Agar 'b' nahi mila (empty call), toh final sum return karenge
-        return a;
-    }
-}//* Ab yeh chalega
-console.log(infiniteCurrying(2)(2)(2)(2)()); 
-// Output: 8
+// function infiniteCurrying(a) {
+//     return function (b) {
+//     //* Agar 'b' exist karta hai (yaani agla number mila)
+//         if (b) {
+//         //*Toh hum sum karke wapas same function return karenge (Recursion)
+//             return infiniteCurrying(a + b);
+//         }
+//         //* Agar 'b' nahi mila (empty call), toh final sum return karenge
+//         return a;
+//     }
+// }//* Ab yeh chalega
+// console.log(infiniteCurrying(2)(2)(2)(2)()); 
+// // Output: 8
