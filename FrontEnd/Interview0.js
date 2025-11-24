@@ -72,3 +72,4 @@
 // }//* Ab yeh chalega
 // console.log(infiniteCurrying(2)(2)(2)(2)()); 
 // // Output: 8
+// complete
