@@ -1,1 +1,1 @@
-i
+let game = 50
