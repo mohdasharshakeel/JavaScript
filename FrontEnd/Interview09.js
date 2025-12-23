@@ -1,1 +1,1 @@
-let game = 50000
+let game = 500000
