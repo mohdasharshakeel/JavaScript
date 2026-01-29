@@ -1,5 +1,1 @@
-ij
-jijij
-okhi
-okay
-gameee
+erase
