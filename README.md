@@ -1,2 +1,2 @@
 
-commit form vs code
+commit form direct github
