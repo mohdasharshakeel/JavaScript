@@ -1,1 +1,1 @@
-jS
+javascript
