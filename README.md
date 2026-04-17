@@ -1,2 +1,1 @@
-
-okay then fine
+kya hal hai JAVASCRIPT
