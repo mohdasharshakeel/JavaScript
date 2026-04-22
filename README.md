@@ -1,2 +1,1 @@
-
-okay
+okay the game is started
